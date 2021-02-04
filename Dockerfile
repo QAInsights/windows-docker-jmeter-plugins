@@ -2,7 +2,7 @@
 # Indicates that the windowsservercore along with OpenJDK will be used as the base image.
 FROM openjdk:8-windowsservercore
 
-ARG JMETER_VERSION="5.3"
+ARG JMETER_VERSION="5.4.1"
 ENV JMETER_HOME /apache-jmeter-$JMETER_VERSION/apache-jmeter-$JMETER_VERSION/
 
 # Metadata indicating an image maintainer.
